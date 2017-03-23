@@ -1,0 +1,7 @@
+jupyter-notebook:
+  image: jupyter/datascience-notebook
+  working_dir: "/app"
+  volumes:
+    - .:/app
+  ports:
+    - "8888:8888"
